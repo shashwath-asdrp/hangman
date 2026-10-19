@@ -29,5 +29,5 @@ while n < len(words):
             n = n + 1
             break
     if lives == 0:
-        print("Game over! The word was", correct)
+        print("Out of lives, Game over! The word was", correct)
         break
