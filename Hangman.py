@@ -4,9 +4,8 @@ import random
 print("Let's play hangman!")
 words = ["hang", "man", "fly", "fruit", "banana", "apple", "frog", "toad", "lion", "deer"]
 
-
-lives = 6
 correct = random.choice(words)
+lives = len(correct) + 1
 guess = ""
 
 
